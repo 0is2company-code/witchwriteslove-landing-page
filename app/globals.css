@@ -7,8 +7,8 @@ button, input { font: inherit; }
 .reference-canvas { position: relative; width: min(100vw, 460px); line-height: 0; }
 .reference-art { display: block; width: 100%; height: auto; }
 .reference-hotspot { position: absolute; z-index: 2; left: 7.5%; width: 85%; border: 0; background: transparent; cursor: pointer; }
-.reference-hotspot-top { top: 3.05%; height: 2.9%; }
-.reference-hotspot-bottom { top: 96.2%; height: 2.4%; }
+.reference-hotspot-top { top: 3.2%; height: 1.1%; }
+.reference-hotspot-bottom { top: 98.35%; height: 1.1%; }
 .reference-hotspot:focus-visible { outline: 3px solid #40e66f; outline-offset: 4px; border-radius: 999px; }
 .reference-modal-backdrop { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; padding: 20px; background: rgb(22 4 20 / 72%); }
 .reference-modal { position: relative; width: min(100%, 390px); padding: 28px 24px 24px; color: #160b19; background: #fff8fc; border: 3px solid #170c1a; border-radius: 22px; box-shadow: 8px 8px 0 #ff36aa; line-height: 1.45; }

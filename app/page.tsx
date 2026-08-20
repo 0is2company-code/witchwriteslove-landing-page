@@ -19,7 +19,7 @@ export default function LandingPage() {
   return (
     <main className="reference-page">
       <div className="reference-canvas">
-        <img className="reference-art" src="/art/landing-reference.png" alt="마녀의 연애소설 마음번역 서비스 랜딩페이지" />
+        <img className="reference-art" src="/art/figma-landing.png" alt="마녀의 연애소설 마음번역 서비스 랜딩페이지" />
         <button className="reference-hotspot reference-hotspot-top" aria-label="사전신청 열기" onClick={openSignup} />
         <button className="reference-hotspot reference-hotspot-bottom" aria-label="사전신청 열기" onClick={openSignup} />
       </div>
