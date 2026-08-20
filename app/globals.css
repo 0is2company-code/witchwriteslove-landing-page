@@ -22,4 +22,21 @@
 .hero h1 em{font-family:ChosunCustom,"Noto Sans KR",serif}
 .hero-question,.comic-bubble,.pink-button,.pull-word,.portal-bubble,.witch-line,.sfx,.promise{font-family:KkubulimCustom,"Noto Sans KR",sans-serif}
 .hero-desc b{font-family:PinkfongCustom,"Noto Sans KR",sans-serif;font-weight:700}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Thin.otf') format('opentype');font-weight:100;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-ExtraLight.otf') format('opentype');font-weight:200;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Medium.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-SemiBold.otf') format('opentype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Bold.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-ExtraBold.otf') format('opentype');font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:PretendardCustom;src:url('/fonts/Pretendard-Black.otf') format('opentype');font-weight:900;font-style:normal;font-display:swap}
+body,.reference-modal{font-family:PretendardCustom,"Noto Sans KR",sans-serif}
+.hero .ink-label,.hero-desc,.hero-note,.hero .pink-button,.final-copy small,.reference-modal{font-family:PretendardCustom,"Noto Sans KR",sans-serif}
+.comic-bubble,.character-copy p,.story-titles li,.step-card p,.reward-section p{font-family:PretendardCustom,"Noto Sans KR",sans-serif}
+.story-opening .comic-bubble{border-width:2px;border-radius:4px;box-shadow:none;padding:14px 24px;font-family:PretendardCustom,"Noto Sans KR",sans-serif;font-size:16px;line-height:26px;white-space:nowrap}.story-opening .comic-bubble:after{display:none}.story-opening .bubble-witch{left:69px;top:1049px;width:305px;max-width:none;border-width:3px;border-radius:25.6px;padding:16px 18px;font-family:KkubulimCustom,"Noto Sans KR",sans-serif;font-size:18px;line-height:24.75px}.story-opening .bubble-a{left:14px;top:631px;width:269px}.story-opening .bubble-b{left:60px;top:127px;width:269px}.story-opening .bubble-c{left:14px;top:1288px;width:215px}.story-opening .bubble-d{left:106px;top:1565px;width:268px}
+.pull-art{left:-2px;top:106px;width:455.8px;height:379.3px}
+@font-face{font-family:Cafe24Custom;src:url('/fonts/Cafe24Ssurround.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+.ink-label,.flags-intro h2,.flag-card h3,.tarot-section h2,.index-section h2,.character-copy h3,.story-titles h2,.solution-section h2,.step-card h3,.writing-section h2,.reward-section h2,.reward-section h3{font-family:Cafe24Custom,PinkfongCustom,"Noto Sans KR",sans-serif}
+.hero h1,.hero h1 span{font-family:PinkfongCustom,"Noto Sans KR",sans-serif}.hero h1 em{font-family:ChosunCustom,"Noto Sans KR",serif}
 
