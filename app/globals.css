@@ -45,3 +45,5 @@ body,.reference-modal{font-family:PretendardCustom,"Noto Sans KR",sans-serif}
 
 
 .story-opening:after{display:none}.story-opening .comic-image,.magic-pull .comic-image,.portal-scenes .comic-image{display:block;width:390px;height:auto;object-fit:initial}.story-opening .comic-opening{margin-top:7px}.magic-pull .comic-image{height:472px}.figma-stage{height:12182px}.index-section{height:2116px;padding:25px 20px 80px}.story-titles{top:8687px}.solution-section{top:9318px}.writing-section{top:10095px}.reward-section{top:10520px}.final-section{top:11489px}
+
+.flags-section{padding-top:60px;padding-bottom:80px}.tarot-section{top:6317px;height:420px;padding-top:60px;padding-bottom:80px}.index-section{top:6737px;height:2151px;padding-top:60px;padding-bottom:80px}.story-titles{top:8888px;height:738px;padding-top:60px;padding-bottom:80px}.solution-section{top:9626px;height:821px;padding-top:60px;padding-bottom:80px}.writing-section{top:10447px;height:470px;padding-top:60px;padding-bottom:80px}.reward-section{top:10917px;height:1002px;padding-top:60px;padding-bottom:80px}.final-section{top:11934px}.figma-stage{height:12627px}
