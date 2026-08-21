@@ -42,7 +42,7 @@ export default function LandingPage() {
 
   return (
     <main className="figma-page">
-      <div className="figma-shell" style={{ height: `${12182 * scale}px` }}>
+      <div className="figma-shell" style={{ height: `${12627 * scale}px` }}>
         <div className="figma-stage" style={{ transform: `scale(${scale})` }}>
           <section className="hero section-paper"><div className="hero-copy"><Label>오해 플래그 탈출형 연애 판타지</Label><h1>모태솔로 마녀에게 <em>납치당했더니</em><span>연애소설의 주인공</span>이 되어버렸습니다!?</h1><p className="hero-question">“우리 연애, 로맨스 맞지?”</p><p className="hero-desc"><b>오늘도 말 한마디로 호감도 -30</b><br />서로 다른 대화 방식 때문에 오해 플래그?!<br />우리 커플을 위한 마음 번역 마법☆</p><button className="pink-button" onClick={openSignup}>✦　마음 번역 마법 체험하기　✦</button><small className="hero-note">무료 사전신청 · 출시 알림 제공</small></div></section>
 
