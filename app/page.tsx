@@ -42,15 +42,15 @@ export default function LandingPage() {
 
   return (
     <main className="figma-page">
-      <div className="figma-shell" style={{ height: `${13181 * scale}px` }}>
+      <div className="figma-shell" style={{ height: `${12182 * scale}px` }}>
         <div className="figma-stage" style={{ transform: `scale(${scale})` }}>
           <section className="hero section-paper"><div className="hero-copy"><Label>오해 플래그 탈출형 연애 판타지</Label><h1>모태솔로 마녀에게 <em>납치당했더니</em><span>연애소설의 주인공</span>이 되어버렸습니다!?</h1><p className="hero-question">“우리 연애, 로맨스 맞지?”</p><p className="hero-desc"><b>오늘도 말 한마디로 호감도 -30</b><br />서로 다른 대화 방식 때문에 오해 플래그?!<br />우리 커플을 위한 마음 번역 마법☆</p><button className="pink-button" onClick={openSignup}>✦　마음 번역 마법 체험하기　✦</button><small className="hero-note">무료 사전신청 · 출시 알림 제공</small></div></section>
 
-          <section className="story-opening section-paper"><div className="scene scene-1"><img src={`${ASSET}optimized/high-res/final-couple.png`} alt="비 오는 저녁, 서로 마주 선 두 사람" /></div><Bubble className="bubble-a">어느 날, 두 사람은 길을 걷다<br />울고 있는 마녀를 발견했습니다.</Bubble><Bubble className="bubble-b">옛날 옛적, 서로를 배려하고 싶지만<br />표현 방식이 달라 마음을 제대로<br />전하지 못하는 커플이 있었습니다.</Bubble><div className="scene scene-2"><img src={`${ASSET}optimized/high-res/scene-witch.png`} alt="두 사람 앞에 나타난 마녀" /></div><Bubble className="bubble-c">마녀는 두 사람의 사랑 이야기를 열심히 듣고,</Bubble><Bubble className="bubble-witch">도와줘~! 사랑 소설을 쓰고 싶은데<br />모태솔로라서 감정선이 하나도 안 잡혀!</Bubble><div className="scene scene-3"><img src={`${ASSET}optimized/high-res/scene-table-listen.png`} alt="마녀의 책을 둘러싼 세 사람" /></div><Bubble className="bubble-d">무언가를 열심히 써내려갔습니다.</Bubble><div className="scene scene-4"><img src={`${ASSET}optimized/high-res/scene-table-write.png`} alt="마녀와 두 사람이 함께 책을 보는 장면" /></div></section>
+          <section className="story-opening section-paper"><img className="comic-image comic-opening" src={`${ASSET}optimized/high-res/final-couple.png`} alt="비 오는 저녁, 서로 마주 선 두 사람" /><img className="comic-image" src={`${ASSET}optimized/high-res/story-strip.png`} alt="울고 있는 마녀를 만나 이야기를 듣는 두 사람" /></section>
 
-          <section className="magic-pull"><Bubble className="pull-caption">그때 ... !</Bubble><div className="pull-art"><img src={`${ASSET}optimized/high-res/sfx.png`} alt="마법의 책이 두 사람을 빨아들이는 장면" /></div><div className="pull-word">으아악!!</div></section>
+          <section className="magic-pull"><img className="comic-image" src={`${ASSET}optimized/high-res/sfx.png`} alt="마법의 책이 두 사람을 빨아들이는 장면" /></section>
 
-          <section className="portal-scenes section-paper"><div className="scene portal-1"><img src={`${ASSET}optimized/high-res/portal.png`} alt="보랏빛 포털이 열린 마법의 책" /></div><div className="scene portal-2"><img src={`${ASSET}optimized/high-res/falling.png`} alt="마법의 책 속으로 빨려 들어가는 두 사람" /></div><Bubble className="portal-bubble">후후후<br />살아있는 소설 완성 ♥</Bubble><div className="scene witch-close"><img src={`${ASSET}optimized/high-res/witch-finished.png`} alt="마녀가 미소 지으며 책을 펼치는 장면" /></div><Bubble className="witch-line" accent="pink">우리 둘이 왜 연애소설의 주인공인데요?!<br />탈출 조건은 서로의 마음 이해하기?!</Bubble></section>
+          <section className="portal-scenes section-paper"><img className="comic-image" src={`${ASSET}optimized/high-res/portal.png`} alt="보랏빛 포털이 열린 마법의 책" /><img className="comic-image" src={`${ASSET}optimized/high-res/falling.png`} alt="마법의 책 속으로 빨려 들어가는 두 사람" /><img className="comic-image" src={`${ASSET}optimized/high-res/witch-finished.png`} alt="마녀가 미소 지으며 책을 펼치는 장면" /></section>
 
           <section className="flags-section"><div className="flags-intro"><Label>오해 플래그 발생</Label><h2>같은 말도 다르게 들리는<br /><b>우리의 오해 루트</b></h2></div><FlagCard no={1} title="혼자 있고 싶어" first="감정을 정리할 시간이 필요해" second="나랑 거리를 두고 싶다는 뜻인가?" /><FlagCard no={2} title="괜찮아" first="정말 괜찮아" second="사실은 서운하지만 참는 건가?" /><FlagCard no={3} title="아무거나 좋아" first="정말 아무거나 괜찮아" second="내가 네 마음까지 알아서 맞춰야 해?" /></section>
 
